@@ -1,0 +1,346 @@
+﻿生成启动时间为 2015/9/11 10:57:28。
+     1>项目“E:\workspace(c++)\Sms\Sms\Sms.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D SMS_EXPORTS /D _WINDLL /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\Sms.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D SMS_EXPORTS /D _WINDLL /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt dllmain.cpp
+         dllmain.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D SMS_EXPORTS /D _WINDLL /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\Sms.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt encrypt.cpp MD5.cpp Sms.cpp SmsBalanceMsg.cpp SmsBlackListMsg.cpp SmsDeliverMsg.cpp SmsKeyWordMsg.cpp SmsReportMsg.cpp SmsSubmitMsg.cpp
+         SmsSubmitMsg.cpp
+     1>e:\workspace(c++)\sms\sms\smssubmitmsg.h(10): warning C4251: “SmsSubmitMsg::account”: class“std::basic_string<_Elem,_Traits,_Alloc>”需要有 dll 接口由 class“SmsSubmitMsg”的客户端使用
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+     1>e:\workspace(c++)\sms\sms\smssubmitmsg.h(11): warning C4251: “SmsSubmitMsg::password”: class“std::basic_string<_Elem,_Traits,_Alloc>”需要有 dll 接口由 class“SmsSubmitMsg”的客户端使用
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+     1>e:\workspace(c++)\sms\sms\smssubmitmsg.h(12): warning C4251: “SmsSubmitMsg::phones”: class“std::basic_string<_Elem,_Traits,_Alloc>”需要有 dll 接口由 class“SmsSubmitMsg”的客户端使用
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+     1>e:\workspace(c++)\sms\sms\smssubmitmsg.h(13): warning C4251: “SmsSubmitMsg::content”: class“std::basic_string<_Elem,_Traits,_Alloc>”需要有 dll 接口由 class“SmsSubmitMsg”的客户端使用
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+     1>e:\workspace(c++)\sms\sms\smssubmitmsg.h(14): warning C4251: “SmsSubmitMsg::sign”: class“std::basic_string<_Elem,_Traits,_Alloc>”需要有 dll 接口由 class“SmsSubmitMsg”的客户端使用
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+     1>e:\workspace(c++)\sms\sms\smssubmitmsg.h(15): warning C4251: “SmsSubmitMsg::msgId”: class“std::basic_string<_Elem,_Traits,_Alloc>”需要有 dll 接口由 class“SmsSubmitMsg”的客户端使用
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+     1>e:\workspace(c++)\sms\sms\smssubmitmsg.h(16): warning C4251: “SmsSubmitMsg::subCode”: class“std::basic_string<_Elem,_Traits,_Alloc>”需要有 dll 接口由 class“SmsSubmitMsg”的客户端使用
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+     1>e:\workspace(c++)\sms\sms\smssubmitmsg.h(17): warning C4251: “SmsSubmitMsg::sendTime”: class“std::basic_string<_Elem,_Traits,_Alloc>”需要有 dll 接口由 class“SmsSubmitMsg”的客户端使用
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+         SmsReportMsg.cpp
+     1>e:\workspace(c++)\sms\sms\smsreportmsg.h(9): warning C4251: “SmsReportMsg::account”: class“std::basic_string<_Elem,_Traits,_Alloc>”需要有 dll 接口由 class“SmsReportMsg”的客户端使用
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+     1>e:\workspace(c++)\sms\sms\smsreportmsg.h(10): warning C4251: “SmsReportMsg::password”: class“std::basic_string<_Elem,_Traits,_Alloc>”需要有 dll 接口由 class“SmsReportMsg”的客户端使用
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+     1>e:\workspace(c++)\sms\sms\smsreportmsg.h(11): warning C4251: “SmsReportMsg::phones”: class“std::basic_string<_Elem,_Traits,_Alloc>”需要有 dll 接口由 class“SmsReportMsg”的客户端使用
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+     1>e:\workspace(c++)\sms\sms\smsreportmsg.h(12): warning C4251: “SmsReportMsg::msgId”: class“std::basic_string<_Elem,_Traits,_Alloc>”需要有 dll 接口由 class“SmsReportMsg”的客户端使用
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+         SmsKeyWordMsg.cpp
+     1>e:\workspace(c++)\sms\sms\smskeywordmsg.h(9): warning C4251: “SmsKeyWordMsg::account”: class“std::basic_string<_Elem,_Traits,_Alloc>”需要有 dll 接口由 class“SmsKeyWordMsg”的客户端使用
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+     1>e:\workspace(c++)\sms\sms\smskeywordmsg.h(10): warning C4251: “SmsKeyWordMsg::password”: class“std::basic_string<_Elem,_Traits,_Alloc>”需要有 dll 接口由 class“SmsKeyWordMsg”的客户端使用
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+     1>e:\workspace(c++)\sms\sms\smskeywordmsg.h(11): warning C4251: “SmsKeyWordMsg::content”: class“std::basic_string<_Elem,_Traits,_Alloc>”需要有 dll 接口由 class“SmsKeyWordMsg”的客户端使用
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+         SmsDeliverMsg.cpp
+     1>e:\workspace(c++)\sms\sms\smsdelivermsg.h(9): warning C4251: “SmsDeliverMsg::account”: class“std::basic_string<_Elem,_Traits,_Alloc>”需要有 dll 接口由 class“SmsDeliverMsg”的客户端使用
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+     1>e:\workspace(c++)\sms\sms\smsdelivermsg.h(10): warning C4251: “SmsDeliverMsg::password”: class“std::basic_string<_Elem,_Traits,_Alloc>”需要有 dll 接口由 class“SmsDeliverMsg”的客户端使用
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+         SmsBlackListMsg.cpp
+     1>e:\workspace(c++)\sms\sms\smsblacklistmsg.h(9): warning C4251: “SmsBlackListMsg::account”: class“std::basic_string<_Elem,_Traits,_Alloc>”需要有 dll 接口由 class“SmsBlackListMsg”的客户端使用
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+     1>e:\workspace(c++)\sms\sms\smsblacklistmsg.h(10): warning C4251: “SmsBlackListMsg::password”: class“std::basic_string<_Elem,_Traits,_Alloc>”需要有 dll 接口由 class“SmsBlackListMsg”的客户端使用
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+     1>e:\workspace(c++)\sms\sms\smsblacklistmsg.h(11): warning C4251: “SmsBlackListMsg::phones”: class“std::basic_string<_Elem,_Traits,_Alloc>”需要有 dll 接口由 class“SmsBlackListMsg”的客户端使用
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+         SmsBalanceMsg.cpp
+     1>e:\workspace(c++)\sms\sms\smsbalancemsg.h(9): warning C4251: “SmsBalanceMsg::account”: class“std::basic_string<_Elem,_Traits,_Alloc>”需要有 dll 接口由 class“SmsBalanceMsg”的客户端使用
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+     1>e:\workspace(c++)\sms\sms\smsbalancemsg.h(10): warning C4251: “SmsBalanceMsg::password”: class“std::basic_string<_Elem,_Traits,_Alloc>”需要有 dll 接口由 class“SmsBalanceMsg”的客户端使用
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+         Sms.cpp
+     1>e:\workspace(c++)\sms\sms\smssubmitmsg.h(10): warning C4251: “SmsSubmitMsg::account”: class“std::basic_string<_Elem,_Traits,_Alloc>”需要有 dll 接口由 class“SmsSubmitMsg”的客户端使用
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+     1>e:\workspace(c++)\sms\sms\smssubmitmsg.h(11): warning C4251: “SmsSubmitMsg::password”: class“std::basic_string<_Elem,_Traits,_Alloc>”需要有 dll 接口由 class“SmsSubmitMsg”的客户端使用
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+     1>e:\workspace(c++)\sms\sms\smssubmitmsg.h(12): warning C4251: “SmsSubmitMsg::phones”: class“std::basic_string<_Elem,_Traits,_Alloc>”需要有 dll 接口由 class“SmsSubmitMsg”的客户端使用
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+     1>e:\workspace(c++)\sms\sms\smssubmitmsg.h(13): warning C4251: “SmsSubmitMsg::content”: class“std::basic_string<_Elem,_Traits,_Alloc>”需要有 dll 接口由 class“SmsSubmitMsg”的客户端使用
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+     1>e:\workspace(c++)\sms\sms\smssubmitmsg.h(14): warning C4251: “SmsSubmitMsg::sign”: class“std::basic_string<_Elem,_Traits,_Alloc>”需要有 dll 接口由 class“SmsSubmitMsg”的客户端使用
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+     1>e:\workspace(c++)\sms\sms\smssubmitmsg.h(15): warning C4251: “SmsSubmitMsg::msgId”: class“std::basic_string<_Elem,_Traits,_Alloc>”需要有 dll 接口由 class“SmsSubmitMsg”的客户端使用
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+     1>e:\workspace(c++)\sms\sms\smssubmitmsg.h(16): warning C4251: “SmsSubmitMsg::subCode”: class“std::basic_string<_Elem,_Traits,_Alloc>”需要有 dll 接口由 class“SmsSubmitMsg”的客户端使用
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+     1>e:\workspace(c++)\sms\sms\smssubmitmsg.h(17): warning C4251: “SmsSubmitMsg::sendTime”: class“std::basic_string<_Elem,_Traits,_Alloc>”需要有 dll 接口由 class“SmsSubmitMsg”的客户端使用
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+     1>e:\workspace(c++)\sms\sms\smsreportmsg.h(9): warning C4251: “SmsReportMsg::account”: class“std::basic_string<_Elem,_Traits,_Alloc>”需要有 dll 接口由 class“SmsReportMsg”的客户端使用
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+     1>e:\workspace(c++)\sms\sms\smsreportmsg.h(10): warning C4251: “SmsReportMsg::password”: class“std::basic_string<_Elem,_Traits,_Alloc>”需要有 dll 接口由 class“SmsReportMsg”的客户端使用
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+     1>e:\workspace(c++)\sms\sms\smsreportmsg.h(11): warning C4251: “SmsReportMsg::phones”: class“std::basic_string<_Elem,_Traits,_Alloc>”需要有 dll 接口由 class“SmsReportMsg”的客户端使用
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+     1>e:\workspace(c++)\sms\sms\smsreportmsg.h(12): warning C4251: “SmsReportMsg::msgId”: class“std::basic_string<_Elem,_Traits,_Alloc>”需要有 dll 接口由 class“SmsReportMsg”的客户端使用
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+     1>e:\workspace(c++)\sms\sms\smsdelivermsg.h(9): warning C4251: “SmsDeliverMsg::account”: class“std::basic_string<_Elem,_Traits,_Alloc>”需要有 dll 接口由 class“SmsDeliverMsg”的客户端使用
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+     1>e:\workspace(c++)\sms\sms\smsdelivermsg.h(10): warning C4251: “SmsDeliverMsg::password”: class“std::basic_string<_Elem,_Traits,_Alloc>”需要有 dll 接口由 class“SmsDeliverMsg”的客户端使用
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+     1>e:\workspace(c++)\sms\sms\smsbalancemsg.h(9): warning C4251: “SmsBalanceMsg::account”: class“std::basic_string<_Elem,_Traits,_Alloc>”需要有 dll 接口由 class“SmsBalanceMsg”的客户端使用
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+     1>e:\workspace(c++)\sms\sms\smsbalancemsg.h(10): warning C4251: “SmsBalanceMsg::password”: class“std::basic_string<_Elem,_Traits,_Alloc>”需要有 dll 接口由 class“SmsBalanceMsg”的客户端使用
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+     1>e:\workspace(c++)\sms\sms\smskeywordmsg.h(9): warning C4251: “SmsKeyWordMsg::account”: class“std::basic_string<_Elem,_Traits,_Alloc>”需要有 dll 接口由 class“SmsKeyWordMsg”的客户端使用
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+     1>e:\workspace(c++)\sms\sms\smskeywordmsg.h(10): warning C4251: “SmsKeyWordMsg::password”: class“std::basic_string<_Elem,_Traits,_Alloc>”需要有 dll 接口由 class“SmsKeyWordMsg”的客户端使用
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+     1>e:\workspace(c++)\sms\sms\smskeywordmsg.h(11): warning C4251: “SmsKeyWordMsg::content”: class“std::basic_string<_Elem,_Traits,_Alloc>”需要有 dll 接口由 class“SmsKeyWordMsg”的客户端使用
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+     1>e:\workspace(c++)\sms\sms\smsblacklistmsg.h(9): warning C4251: “SmsBlackListMsg::account”: class“std::basic_string<_Elem,_Traits,_Alloc>”需要有 dll 接口由 class“SmsBlackListMsg”的客户端使用
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+     1>e:\workspace(c++)\sms\sms\smsblacklistmsg.h(10): warning C4251: “SmsBlackListMsg::password”: class“std::basic_string<_Elem,_Traits,_Alloc>”需要有 dll 接口由 class“SmsBlackListMsg”的客户端使用
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+     1>e:\workspace(c++)\sms\sms\smsblacklistmsg.h(11): warning C4251: “SmsBlackListMsg::phones”: class“std::basic_string<_Elem,_Traits,_Alloc>”需要有 dll 接口由 class“SmsBlackListMsg”的客户端使用
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+         MD5.cpp
+         encrypt.cpp
+         正在生成代码...
+     1>e:\workspace(c++)\sms\sms\sms.cpp(41): warning C4715: “doPost”: 不是所有的控件路径都返回值
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\workspace(c++)\Sms\Debug\Sms.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\workspace(c++)\Sms\Debug\Sms.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\workspace(c++)\Sms\Debug\Sms.lib" /MACHINE:X86 /DLL Debug\dllmain.obj
+         Debug\encrypt.obj
+         Debug\MD5.obj
+         Debug\Sms.obj
+         Debug\SmsBalanceMsg.obj
+         Debug\SmsBlackListMsg.obj
+         Debug\SmsDeliverMsg.obj
+         Debug\SmsKeyWordMsg.obj
+         Debug\SmsReportMsg.obj
+         Debug\SmsSubmitMsg.obj
+         Debug\stdafx.obj
+            正在创建库 E:\workspace(c++)\Sms\Debug\Sms.lib 和对象 E:\workspace(c++)\Sms\Debug\Sms.exp
+         Sms.vcxproj -> E:\workspace(c++)\Sms\Debug\Sms.dll
+     1>已完成生成项目“E:\workspace(c++)\Sms\Sms\Sms.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:04.96

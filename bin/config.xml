@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+
+<configuration>
+  <serviceUrl>http://127.0.0.1:2412</serviceUrl>
+  <dataType>0</dataType> <!--0 :xml 1 :json-->
+  
+  <message>
+   <account>lei858</account>
+	<password>456.com</password>
+	<msgId></msgId>
+	<phones>18084059356</phones>
+	<content>您好，您的手机验证码为：430237。</content>
+    <sign></sign>
+	<subcode></subcode>
+	<sendtime>201405051230</sendtime>
+ </message>
+ </configuration>
+
+
